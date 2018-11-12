@@ -93,7 +93,7 @@ func (p *Predictor) ReadPredictedFeatures(ctx context.Context) ([]dlframework.Fe
 		output[ii] = []*dlframework.Feature{
 			feature.New(
 				feature.ClassificationIndex(0),
-				feature.ClassificationName("mock"),
+				feature.ClassificationLabel("mock"),
 				feature.Probability(1),
 			),
 		}
