@@ -1,0 +1,20 @@
+name: mock # name of your model
+framework:
+  name: mock # framework for the model
+  version: 1.0 # framework version contraint
+version: 1.0 # version information in semantic version format
+description: >
+  Returns the label "mock" with 100% probability for any input it gets
+# license of the model
+license: unrestricted
+# inputs to the model
+inputs:
+  # first input type for the model
+  - type: image
+    # description of the first input
+    description: the input image
+output:
+  # the type of the output
+  type: feature
+  # a description of the output parameter
+  description: the output label

@@ -25,7 +25,5 @@ func assetFS() *assetfs.AssetFS {
 }
 
 func Register() {
-	if supportedSystem {
-		framework.Register(FrameworkManifest, assetFS())
-	}
+	framework.Register(FrameworkManifest, assetFS())
 }
