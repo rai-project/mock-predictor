@@ -8,7 +8,7 @@ import (
 	"github.com/rai-project/dlframework/framework/agent"
 	"github.com/rai-project/dlframework/framework/feature"
 	"github.com/rai-project/dlframework/framework/options"
-	common "github.com/rai-project/dlframework/framework/predict"
+	common "github.com/rai-project/dlframework/framework/predictor"
 	mock "github.com/rai-project/mock-predictor"
 	"github.com/rai-project/tracer"
 )
